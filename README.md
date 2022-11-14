@@ -13,7 +13,11 @@ source venv/bin/activate # This command is for linux
 pip install -r requirements.txt
 ```
 ### - Make jupyter use venv
-Run: `ipython kernel install --user --name=venv`
+Run: 
+```
+python -m ipykernel install --user
+ipython kernel install --user --name=venv
+```
 
 ### - Modify Jupyter Notebook configurations (optional) 
 Run: `jupyter notebook --generate-config`
