@@ -48,3 +48,18 @@ When in the notebook, choose `Kernel` -> `Change kernel` -> `venv`
 Create a folder name `data`
 
 Put data files in `data` 
+
+Input raw data files:
+```
+ep_ce_instances.json
+gcp_cost.csv
+raw_gcp_cpu_utilization.json
+raw_gcp_network_in.json
+raw_gcp_network_out.json
+```
+
+Output files:
+```
+gcp_cost_with_instance_info.csv
+gcp_cost_metrics_augmented_final.csv
+```
