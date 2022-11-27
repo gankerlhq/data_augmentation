@@ -38,6 +38,10 @@ Run: `jupyter notebook --allow-root`
 
 Go to the path displayed in the terminal.
 
+To full flow, use file `tsaug-final.ipynb`
+
+To explore data with few samples, use files `tsaug-*-experiment.ipynb`
+
 When in the notebook, choose `Kernel` -> `Change kernel` -> `venv`
 
 ## 3. Data
