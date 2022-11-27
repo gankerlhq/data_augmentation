@@ -3,3 +3,4 @@ node_moddules
 .env
 data
 .idea
+.ipynb_checkpoints
